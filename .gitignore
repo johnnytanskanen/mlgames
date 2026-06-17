@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.claude/
+
+# auto-training runtime files (weights.json itself IS committed)
+.train.lock
+training.log
+weights.json.tmp
+
+# chess: trained net IS committed (it's small); ignore checkpoints/venvs/data
+model.pt.tmp
+*.venv/
+.venv/
+games/chess/data/
+
+.DS_Store

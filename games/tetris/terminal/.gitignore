@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.train.lock
+training.log
+weights.json.tmp
